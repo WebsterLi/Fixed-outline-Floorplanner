@@ -1,0 +1,5 @@
+time ./SA 0.5 ./input_pa3/ami33.block ./input_pa3/ami33.nets ami33.rpt ami33.gnu
+time ./SA 0.5 ./input_pa3/ami49.block ./input_pa3/ami49.nets ami49.rpt ami49.gnu
+time ./SA 0.5 ./input_pa3/hp.block ./input_pa3/hp.nets hp.rpt hp.gnu
+time ./SA 0.5 ./input_pa3/xerox.block ./input_pa3/xerox.nets xerox.rpt xerox.gnu
+time ./SA 0.5 ./input_pa3/apte.block ./input_pa3/apte.nets apte.rpt apte.gnu

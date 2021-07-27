@@ -1,0 +1,15 @@
+time ./SA ./input_block/ami33.block ./input_block/ami33.nets ./result/ami33.rpt ./result/ami33.gnu
+./checker/checker ./input_block/ami33.block ./input_block/ami33.nets ./result/ami33.rpt 0.5
+gnuplot -persist ./result/ami33.gnu
+time ./SA ./input_block/ami49.block ./input_block/ami49.nets ./result/ami49.rpt ./result/ami49.gnu
+./checker/checker ./input_block/ami49.block ./input_block/ami49.nets ./result/ami49.rpt 0.5
+gnuplot -persist ./result/ami49.gnu
+time ./SA ./input_block/hp.block ./input_block/hp.nets ./result/hp.rpt ./result/hp.gnu
+./checker/checker ./input_block/hp.block ./input_block/hp.nets ./result/hp.rpt 0.5
+gnuplot -persist ./result/hp.gnu
+time ./SA ./input_block/xerox.block ./input_block/xerox.nets ./result/xerox.rpt ./result/xerox.gnu
+./checker/checker ./input_block/xerox.block ./input_block/xerox.nets ./result/xerox.rpt 0.5
+gnuplot -persist ./result/xerox.gnu
+time ./SA ./input_block/apte.block ./input_block/apte.nets ./result/apte.rpt ./result/apte.gnu
+./checker/checker ./input_block/apte.block ./input_block/apte.nets ./result/apte.rpt 0.5
+gnuplot -persist ./result/apte.gnu
